@@ -19,3 +19,4 @@ Let's do another gobuster to see what is hiding beyond that.
 <img width="1015" height="494" alt="image" src="https://github.com/user-attachments/assets/090f3cf4-7762-4018-a68f-713032ab3756" />
 
 We got a few things going there. I'm going to poke around to see what else I'm able to find. 
+
