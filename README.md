@@ -20,3 +20,26 @@ Let's do another gobuster to see what is hiding beyond that.
 
 We got a few things going there. I'm going to poke around to see what else I'm able to find. 
 
+I'm drawn to the inc directory. Let's look around there. 
+
+It just has a bunch of php files in it. Let's look around some other directories. Let's look at the /as directory. 
+
+This takes me to a login page of some sort. 
+
+<img width="538" height="589" alt="image" src="https://github.com/user-attachments/assets/e222ae38-7245-44c6-adff-d924b808ac0b" />
+
+I'm not sure where this leads. Lets first check the source code for any hidden notes, then use gobuster to see what directories go past this. 
+
+Ok using a login that doesn't match in their system leads to 'Login failed' as a response. Good to note before we try to brute force it. 
+
+Let's use gobuster first to see what lies past this before we do anything more. 
+
+<img width="1048" height="422" alt="image" src="https://github.com/user-attachments/assets/d2e21c94-20aa-4e0e-a3f5-8c3a3a13dbb1" />
+
+It looks like there's a few pages we can look into. Let's check JS. 
+
+I get access to it right away and see this. 
+
+<img width="596" height="401" alt="image" src="https://github.com/user-attachments/assets/7852b45e-c2b2-4084-b82d-fc6ea13a4b9a" />
+
+
